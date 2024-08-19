@@ -1,0 +1,72 @@
+/* Basic Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Section Styles */
+section {
+    height: 100vh;
+    padding: 20px;
+}
+
+/* Navbar Styles */
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: linear-gradient(90deg, #0072ff, #00c6ff);
+    padding: 10px 0;
+    z-index: 1000;
+    transition: background 0.3s ease;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    margin: 0 15px;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 20px;
+    transition: background 0.3s ease, color 0.3s ease;
+}
+
+/* Hover Effect */
+.menu a:hover {
+    background: rgba(255, 255, 255, 0.3);
+    color: #000;
+    border-radius: 5px;
+}
+
+/* Scroll Effect */
+.scrolled {
+    background: linear-gradient(90deg, #00c6ff, #0072ff);
+}
+
+/* Section Colors */
+#home {
+    background: #f0f0f0;
+}
+
+#about {
+    background: #e0e0e0;
+}
+
+#services {
+    background: #d0d0d0;
+}
+
+#contact {
+    background: #c0c0c0;
+}
